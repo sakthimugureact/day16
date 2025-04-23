@@ -13,7 +13,7 @@ import BlogContent from './Pages/BlogContent'
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/day16'>
+      <BrowserRouter>
      <Navbar/>
       <Routes>
         <Route exact path='/' element={<Home/>}></Route>  
